@@ -27,7 +27,7 @@ async def _(bot: Client, cmd: Message):
 
 # Back Button
 BACK_BUTTON = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🔙 Go Back", callback_data="cbback")]]
+    [[InlineKeyboardButton("☟ ʙᴀᴄᴋ ☟", callback_data="cbback")]]
 )
 
 # @Client.on_message(filters.text & ~filters.private)
@@ -62,15 +62,15 @@ async def controlset(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⏸ pause", callback_data="cbpause"),
-                    InlineKeyboardButton("▶️ resume", callback_data="cbresume"),
+                    InlineKeyboardButton("ᴘᴀᴜsᴇ", callback_data="cbpause"),
+                    InlineKeyboardButton("ʀᴇsᴜᴍᴇ", callback_data="cbresume"),
                 ],
                 [
-                    InlineKeyboardButton("⏩ skip", callback_data="cbskip"),
-                    InlineKeyboardButton("⏹ stop", callback_data="cbend"),
+                    InlineKeyboardButton("sᴋɪᴘ", callback_data="cbskip"),
+                    InlineKeyboardButton("sᴛᴏᴘ", callback_data="cbend"),
                 ],
-                [InlineKeyboardButton("⛔ anti cmd", callback_data="cbdelcmds")],
-                [InlineKeyboardButton("🗑 Close", callback_data="close")],
+                [InlineKeyboardButton("ᴀɴᴛɪ ᴄᴍᴅ", callback_data="cbdelcmds")],
+                [InlineKeyboardButton("••ᴛᴜᴛᴜᴘ••", callback_data="close")],
             ]
         ),
     )

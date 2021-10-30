@@ -1,4 +1,6 @@
 import os
+import aiohttp
+from Python_ARQ import ARQ
 from os import getenv
 from dotenv import load_dotenv
 from helpers.uptools import fetch_heroku_git_url
@@ -47,3 +49,6 @@ UPSTREAM_REPO = os.environ.get(
     "UPSTREAM_REPO", "https://t.me/ikichannellll"
 )
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
+
+aiohttpsession = aiohttp.ClientSession()
+arq = ARQ("https://thearq.tech", ARQ_API_KEY, aiohttpsession)

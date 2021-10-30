@@ -10,10 +10,6 @@
             "description": "fill with the pyrogram session string",
             "required": true
         },
-        "ARQ_API_KEY": {
-            "description": "For lyric and quotly modules, get on @ARQRobot",
-            "required": true
-        },
         "BOT_TOKEN": {
             "description": "fill with your bot token from @BotFather",
             "required": true

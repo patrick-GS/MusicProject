@@ -37,12 +37,12 @@
         "BOT_USERNAME": {
             "description": "fill with your bot username without @",
             "required": true,
-            "value": "veezmusicbot"
+            "value": "Eagle_Xrobot"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "veezasisstant"
+            "value": "EagleAssistant"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
@@ -52,12 +52,12 @@
         "OWNER_NAME": {
             "description": "fill with your telegram username without @",
             "required": false,
-            "value": "dlwrml"
+            "value": "Manusiabajingann"
         },
         "ALIVE_NAME": {
             "description": "fill with the nickname of your telegram account",
             "required": false,
-            "value": "Levina"
+            "value": "ᴇᴀɢʟᴇ"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
@@ -74,17 +74,17 @@
         "DURATION_LIMIT": {
             "description": "max duration for music to download (in minutes, default is 40).",
             "required": true,
-            "value": "40"
+            "value": "120"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, fill the channel username here without @",
             "required": false,
-            "value": "levinachannel"
+            "value": "infobotrelax"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group, fill the group username here without @",
             "required": false,
-            "value": "VeezSupportGroup"
+            "value": "Mutualan_Cari_Teman"
         }
     },
     "buildpacks": [

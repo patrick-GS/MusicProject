@@ -8,7 +8,6 @@ from traceback import format_exc
 from pyrogram.types import Message
 from pyrogram import Client, filters
 from helpers.filters import command
-from config import arq
 
 
 async def quotify(messages: list):

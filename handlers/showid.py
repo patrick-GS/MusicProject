@@ -1,8 +1,3 @@
-"""
-Get id of the replied user
-Syntax: /id
-"""
-
 import os
 import asyncio
 import time

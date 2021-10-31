@@ -21,4 +21,6 @@ yt-dlp
 httpx==0.13.3
 heroku3
 gitpython
+pykeyboard
+telegraph
 pymongo

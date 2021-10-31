@@ -317,9 +317,9 @@ async def make_carbon(code):
 @Client.on_message(command("carbon"))
 async def carbon_func(client, message):
     if not message.reply_to_message:
-        return await message.reply_text("Reply to a text message to make carbon.")
+        return await message.reply_text("Reply ke text GOBLOK!")
     if not message.reply_to_message.text:
-        return await message.reply_text("Reply to a text message to make carbon.")
+        return await message.reply_text("Reply ke text GOBLOK!")
     m = await message.reply_text("Preparing Carbon")
     carbon = await make_carbon(message.reply_to_message.text)
     await m.edit("Uploading")

@@ -43,6 +43,11 @@
             "required": true,
             "value": "Eagle_Xrobot"
         },
+        "HEROKU_API_KEY": {
+            "description": "Your heroku api key get from setting account.",
+            "required": true,
+            "value": ""
+        },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
